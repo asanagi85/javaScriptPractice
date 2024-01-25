@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        //배열선언
+        var array = [1,'안녕하세요',true]
+
+        //배열접근(0번째부터 시작)
+        array[0]
+        array[1]
+
+        for(let i = 0; i< 5;i++){
+            alert('출력'+i);
+        }
+
+        //역반복문
+        var array = ['포도','사과','바나나','망고']
+        for (let j = array.length - 1; j >= 0; j--){
+            alert(array[j]);
+        }
+
+        //for in 반복문
+        for(let k in array){
+            alert(array[k]);
+        }
+
+        // 반복문
+        for (let u = 0 ; true; u++){
+            alert(u + '번째 반복문입니다.');
+
+            //진행 여부를 묻기
+            if(!confirm('계속 합니까?')){
+                alert('프로그램 종료');
+                break;
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
